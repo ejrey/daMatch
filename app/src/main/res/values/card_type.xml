@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="picture_type">
+        <item>Sports</item>
+        <item>Food</item>
+        <item>Custom</item>
+    </string-array>
+    <string name="default_card_type">Sports</string>
+</resources>

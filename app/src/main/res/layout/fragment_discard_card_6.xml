@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiscardFragment">
+
+    <ImageView
+        android:id="@+id/draw_card_deck3"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="473dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/deck_front"
+        android:contentDescription="@string/deck_front"
+        android:elevation="0dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/img_discard_order_5_0"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/card_image"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/img_discard_order_5_5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="65dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/card_image"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/img_discard_order_5_1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="65dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/card_image"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/img_discard_order_5_4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/card_image"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/img_discard_order_5_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="150dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/card_image"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/img_discard_order_5_3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="105dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/card_image"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>

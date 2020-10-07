@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/bground_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/menu_pink"
+        android:layout_width="300dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/vera_bold"
+        android:gravity="center"
+        android:text="@string/menu_title"
+        android:textColor="#E5469D"
+        android:textSize="75sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/menu_blue"
+        android:layout_width="300dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/vera_bold"
+        android:gravity="center"
+        android:text="@string/menu_title"
+        android:textColor="#51D4DE"
+        android:textSize="75sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/menu_black"
+        android:layout_width="300dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/vera_bold"
+        android:gravity="center"
+        android:text="@string/menu_title"
+        android:textColor="#171C21"
+        android:textSize="75sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <ImageButton
+        android:id="@+id/btnSettings"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:contentDescription="@string/settings_button_img_description"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_blue"
+        app:layout_constraintVertical_bias="0.036"
+        app:srcCompat="@drawable/setting_button" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="268dp"
+        android:layout_height="78dp"
+        android:contentDescription="@string/play_btn_img_description"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSettings"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/play_button" />
+
+    <ImageButton
+        android:id="@+id/btnHelp"
+        android:layout_width="267dp"
+        android:layout_height="77dp"
+        android:contentDescription="@string/help_button_description"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/help_button" />
+
+    <ImageView
+        android:id="@+id/hotdog"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:contentDescription="@string/card_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/hot_dog" />
+
+    <ImageView
+        android:id="@+id/apple"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:contentDescription="@string/card_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239"
+        app:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/baseball"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+        android:contentDescription="@string/card_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/baseball" />
+
+    <ImageButton
+        android:id="@+id/leadButton"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:contentDescription="@string/leaderboard_button_description"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHelp"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/leadboard_button" />
+
+    <ImageView
+        android:id="@+id/ttennisButton"
+        android:layout_width="62dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/card_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        app:srcCompat="@drawable/ping_pong" />
+
+    <ImageButton
+        android:id="@+id/flickrBtn"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:contentDescription="@string/flickr_button"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leadButton"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/flickr_custm_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+Scrum Master: Cameron Way (cway@sfu.ca)
+Product Owner: Canh nhat minh Le (John) (cnle@sfu.ca)
+Repo Manager: Eric Reyes (ejreyes@sfu.ca)
+Team Member: Cyrus Ahn (caa40@sfu.ca)
